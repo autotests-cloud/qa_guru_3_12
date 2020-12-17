@@ -31,7 +31,7 @@ public class SomeTests {
     }
 
     @Test
-    @Disabled
+    @Disabled("waiting for fix JIRA-412")
     void test6() {
         assertTrue(true);
     }
